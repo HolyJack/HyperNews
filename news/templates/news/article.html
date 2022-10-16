@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> {{ title }} </title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+</head>
+<body>
+    <div>
+        <h2> {{ title }} </h2>
+        <p> {{ created }} </p>
+        <p> {{ text }} </p>
+        <a target="_blank" href="/news/">Back</a>
+    </div>
+</body>
+</html>
